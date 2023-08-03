@@ -77,7 +77,7 @@ ul li::before{
     top: 12px;
     left: 8px;
 }
-ul li checked{
+.checked{
 color: #555;
 text-decoration: line-through;
 }
@@ -87,7 +87,8 @@ ul li.checked::before{
 
 ul li span{
     position:absolute;
-    right:5px;
+    right: 0;
+    top: 5px;
     width: 40px;
     height: 40px;
     font-size:22px;
